@@ -1,4 +1,4 @@
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/c/caf.viz/caf_viz-{{ version }}.tar.gz
-  sha256: 235563859c3c8289173f610151eaac6e808ebe30434723cf72832e756e4e16e3
+  url: https://files.pythonhosted.org/packages/source/c/caf.viz/caf_viz-{{ version }}.tar.gz
+  sha256: 05c7c26b28cbf53e2d1440c5be83df2dc9435a13cc262dba3d36abd7a91f5d94
 
 build:
   noarch: python
