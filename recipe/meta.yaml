@@ -1,5 +1,4 @@
 {% set version = "0.3.0" %}
-{% set python_min = "3.11" %}
 
 package:
   name: caf.viz
