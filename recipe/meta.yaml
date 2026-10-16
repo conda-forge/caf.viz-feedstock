@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: caf.viz
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/c/caf.viz/caf_viz-{{ version }}.tar.gz
-  sha256: 05c7c26b28cbf53e2d1440c5be83df2dc9435a13cc262dba3d36abd7a91f5d94
+  sha256: 02c3f55fa5e0d0d0f057f8b952ee9070c954040fa61b50f8ee0361085e55a1ad
 
 build:
   noarch: python
